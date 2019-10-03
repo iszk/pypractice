@@ -1,4 +1,7 @@
 
-class Dog:
+from . import utils
+
+class Dog(utils.Animal):
+
   def say(self):
-    print('bow')
+    print('bow, i am ' + self.get_name())

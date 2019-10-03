@@ -2,6 +2,5 @@
 
 from libs import animal
 
-animal.animal('cat').say()
-animal.animal('dog').say()
-
+animal.animal('cat', 'tama').say()
+animal.animal('dog', 'pochi').say()

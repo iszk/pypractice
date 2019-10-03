@@ -1,7 +1,8 @@
 
+from . import utils
 
-class Cat():
+class Cat(utils.Animal):
 
   def say(self):
-    print('mew')
+    print('mew, i am ' + self.get_name())
 

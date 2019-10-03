@@ -2,11 +2,10 @@
 from . import cat
 from . import dog
 
-def animal(type):
+def animal(type, name):
   if type == 'cat':
-    return cat.Cat()
+    return cat.Cat(name)
 
   if type == 'dog':
-    return dog.Dog()
-
+    return dog.Dog(name)
 
