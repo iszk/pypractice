@@ -1,6 +1,6 @@
-
 from . import cat
 from . import dog
+
 
 def animal(type, name):
   if type == 'cat':
